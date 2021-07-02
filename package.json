@@ -1,6 +1,6 @@
 {
   "name": "@hieubda/ckeditor5-build-with-htmlembed",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The custom build of CKEditor 5 – with htmlembed.",
   "keywords": [
     "ckeditor5-custom-build",
