@@ -68,7 +68,7 @@
   },
   "author": "hieubda",
   "license": "GPL-2.0-or-later",
-  "homepage": "https://github.com/hieubda",
+  "homepage": "https://github.com/hieubda/ckeditor5-build-with-htmlembed",
   "bugs": "https://github.com/ckeditor/ckeditor5/issues",
   "repository": {
     "type": "git",
