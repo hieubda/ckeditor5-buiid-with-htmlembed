@@ -1,23 +1,19 @@
 {
-  "name": "ckeditor5-build-with-htmlembed",
+  "name": "@hieubda/ckeditor5-build-with-htmlembed",
   "version": "1.0.0",
-  "description": "The classic editor build of CKEditor 5 – with htmlembed.",
+  "description": "The custom build of CKEditor 5 – with htmlembed.",
   "keywords": [
-    "ckeditor5-build",
+    "ckeditor5-custom-build",
     "ckeditor",
     "ckeditor5",
     "ckeditor 5",
     "wysiwyg",
     "rich text",
     "editor",
-    "html",
+    "htmlembed",
     "contentEditable",
     "editing",
     "operational transformation",
-    "ot",
-    "collaboration",
-    "collaborative",
-    "real-time",
     "framework"
   ],
   "main": "./build/ckeditor.js",
@@ -70,14 +66,16 @@
     "node": ">=12.0.0",
     "npm": ">=5.7.1"
   },
-  "author": "CKSource (http://cksource.com/)",
+  "author": "hieubda",
   "license": "GPL-2.0-or-later",
-  "homepage": "https://ckeditor.com/ckeditor-5",
+  "homepage": "https://github.com/hieubda/ckeditor5-build-with-htmlembed.git",
   "bugs": "https://github.com/ckeditor/ckeditor5/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5.git",
-    "directory": "packages/ckeditor5-build-classic"
+    "url": "https://github.com/hieubda/ckeditor5-build-with-htmlembed.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/hieubda"
   },
   "scripts": {
     "build": "webpack --mode production",
