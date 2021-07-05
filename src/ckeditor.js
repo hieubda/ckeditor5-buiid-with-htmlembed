@@ -5,6 +5,7 @@ import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapte
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
+import {CKFinder} from "@ckeditor/ckeditor5-ckfinder";
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import FindAndReplace from '@ckeditor/ckeditor5-find-and-replace/src/findandreplace';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading';
@@ -43,6 +44,7 @@ import SpecialCharactersEssentials from '@ckeditor/ckeditor5-special-characters/
 import SpecialCharactersLatin from '@ckeditor/ckeditor5-special-characters/src/specialcharacterslatin.js';
 import SpecialCharactersMathematical from '@ckeditor/ckeditor5-special-characters/src/specialcharactersmathematical.js';
 import SpecialCharactersText from '@ckeditor/ckeditor5-special-characters/src/specialcharacterstext.js';
+
 export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.
@@ -53,6 +55,7 @@ ClassicEditor.builtinPlugins = [
 	Bold,
 	Italic,
 	BlockQuote,
+	CKFinder,
 	FindAndReplace,
 	Heading,
 	Image,
@@ -197,7 +200,9 @@ ClassicEditor.defaultConfig = {
 			16,
 			17,
 			19,
-			21
+			21,
+			22,
+			24
 		]
 	},
 	table: {
